@@ -1,0 +1,71 @@
+.rating-stars{
+    cursor: pointer;
+}
+.rating-stars .star{
+    position: relative;
+    display: block;
+    float: left;
+}
+.rating-stars .star .starline{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.rating-stars .star .starover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.rating-stars .star .overLines{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.rating-stars .star .overLines span{
+
+}
+.stars-all{
+
+}
+.stars-all:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.showrate{
+    margin-top: 2px;
+    line-height: 1;
+    margin-right: 5px;
+}
+.showrate .rate-num{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.stars-all.disabled{
+    pointer-events: none;
+}
+.gold_star.rating-stars[data-rated="true"][data-rate="-5"]{
+    stroke: #fdd835;
+}
+.gold_star.rating-stars[data-rated="true"][data-rate="-4"] .star[data-rate="0"],
+.gold_star.rating-stars[data-rated="true"][data-rate="-4"] .star[data-rate="1"],
+.gold_star.rating-stars[data-rated="true"][data-rate="-4"] .star[data-rate="2"],
+.gold_star.rating-stars[data-rated="true"][data-rate="-4"] .star[data-rate="3"]{
+    stroke: #fdd835;
+}
+.gold_star.rating-stars[data-rated="true"][data-rate="-3"] .star[data-rate="0"],
+.gold_star.rating-stars[data-rated="true"][data-rate="-3"] .star[data-rate="1"],
+.gold_star.rating-stars[data-rated="true"][data-rate="-3"] .star[data-rate="2"]{
+    stroke: #fdd835;
+}
+.gold_star.rating-stars[data-rated="true"][data-rate="-2"] .star[data-rate="0"],
+.gold_star.rating-stars[data-rated="true"][data-rate="-2"] .star[data-rate="1"]{
+    stroke: #fdd835;
+}
+.gold_star.rating-stars[data-rated="true"][data-rate="-1"] .star[data-rate="0"]{
+    stroke: #fdd835;
+}

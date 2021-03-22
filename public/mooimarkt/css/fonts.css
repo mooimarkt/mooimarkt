@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
+/*   font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400&display=swap');
+/* font-family: 'Frank Ruhl Libre', serif; */
+@import url('https://fonts.googleapis.com/css?family=Lora:400&display=swap');
+/* font-family: 'Lora', serif; */
+@font-face {
+    font-family: 'Celestina';
+    src: local('Celestina'), 
+    url('fonts/Celestina.woff2') format('woff2'), 
+    url('fonts/Celestina.woff') format('woff'), 
+    url('fonts/Celestina.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

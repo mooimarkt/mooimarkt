@@ -1,0 +1,98 @@
+.js-carousel-2 {
+    margin-top: 10px;
+}
+
+.clear_buton {
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 10;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 14px;
+}
+.clear_buton:hover {
+  box-shadow: 0px 0px 20px #fe9db3;
+}
+
+.key-info .rect_text_block {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.key-info {
+    background: #fff;
+    padding: 10px;
+    min-height: 305px;
+    max-height: 100%;
+}
+.det-descr {
+    background: #fff;
+    padding: 10px;
+    min-height: 305px;
+    max-height: 100%;
+}
+
+
+.key-info h2 {
+    text-transform: uppercase;
+}
+.det-descr h2 {
+    text-transform: uppercase;
+}
+
+.key-info .rect_right_text {
+    font-weight: 700;
+}
+.rec_car_info .rect_text_block .rect_right_text {
+    color: #333333;
+}
+
+.edit {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.upload i{
+    padding-right: 10px;
+}
+
+.upload{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link-td {
+    vertical-align: middle !important;
+    text-align: right;
+}
+
+.table-listing tr td span{
+    font-size: 22px;
+    font-weight: 600;
+    color: #4285f4;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.form-group {
+    display: flex;
+}
+.form-group button{
+    height: 100%; 
+}
+

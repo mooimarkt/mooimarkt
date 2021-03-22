@@ -1,0 +1,58 @@
+html, body, p, h1, h2, h3, h4, ul, article, figure{
+    padding: 0;
+    margin: 0;
+}
+body{
+    line-height: 1;
+    font-size: 14px;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+}
+a{
+    color: inherit;
+}
+*,
+*:before, *:after{
+    box-sizing: border-box;
+}
+a,
+svg,
+path,
+.btn,
+button,
+button:before,
+button:after{
+    text-decoration: none;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+    outline: none;
+}
+img{
+    max-width: 100%;
+}
+img.hiw{
+    max-width: 50%;
+}
+ul{
+    list-style: none;
+}
+.btn,
+input,
+textarea,
+button,
+.slick-slide{
+    outline: none;
+}
+.container {
+  margin: 0 auto;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}

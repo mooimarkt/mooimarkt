@@ -1,0 +1,18 @@
+.starability-basic{
+    min-height: auto;
+}
+
+.header_login_icons_menu .icon_wrpr.notification_icon.messages span{
+    top: -6px;
+    right: -6px;
+}
+
+.m-actions .hide-deleting{
+    display: none;
+    margin-right: -10px;
+}
+.m-actions .hide-deleting svg{
+    transform: rotate(90deg);
+    width: 16px;
+    height: 10px;
+}

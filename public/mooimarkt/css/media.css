@@ -1,0 +1,186 @@
+@media (max-width: 1199px) {
+    .s-page-product .card-items.item-3 .card-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 991px) {
+    .s-page-product .container {
+        flex-direction: column-reverse;
+    }
+
+    .s-page-product .product-sidebar {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .chat-container {
+        box-shadow: none;
+    }
+
+    .chat-container .left {
+        width: 100%;
+        margin-bottom: 30px;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 4px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    .chat-container .user-image {
+        display: none;
+    }
+
+    .chat-container .user-info {
+        display: none;
+    }
+
+    .chat-container .right {
+        width: 100%;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 4px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    .chat-container {
+        height: auto;
+    }
+
+    .m-list-items-wrap {
+        height: 280px;
+    }
+
+    .chat-container.chat-empty .m-list-items-wrap {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .purchase-item .purchase-item-info .price {
+        position: relative;
+    }
+
+    .chat-container .top-panel.top-panel-right {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .m-selected-item {
+        margin-bottom: 10px;
+    }
+
+    .m-actions .m-action-item:first-child {
+        margin-left: 0;
+    }
+
+    .message-product-box .text-info .bottom {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .message-product-box .text-info .text {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .message-product-box {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 576px) {
+    .s-page-product .card-items {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .s-page-product .card-items.item-3 .card-item {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .m-actions {
+        flex-wrap: wrap;
+    }
+
+    .m-actions .m-action-item {
+        margin-left: 0;
+        margin-right: 23px;
+        margin-bottom: 10px;
+    }
+
+    .m-actions .m-action-item:last-child {
+        margin-right: 0;
+    }
+
+    .message-product-box {
+        flex-direction: column;
+    }
+
+    .message-product-box .img-wrap {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .chat-container .top-panel, .m-list-items .m-item, .messages-box .messages-content, .messages-box .bottom-controls {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .message-item.checkbox-active {
+        padding-left: 24px;
+    }
+
+    .messages-box .message-input {
+        padding: 10px;
+        border: 1px solid #EFEFEF;
+    }
+
+    .messages-box .control-left {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .messages-box .bottom-controls {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .message-item .message-wrap {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .message-item .message-time {
+        margin-bottom: 8px;
+    }
+
+    .message-item.your-message .message-wrap {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .pagination {
+        display: none;
+    }
+
+    .pagination.pagination-mobile {
+        display: flex;
+    }
+
+    .product-gallery .right .top a {
+        padding-top: 58%;
+    }
+}
+
+@media (max-width: 575px) {
+    .form-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-bottom a {
+        position: static !important;
+        margin-top: 15px;
+        display: inline-flex;
+        justify-content: center;
+    }
+}
